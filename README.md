@@ -1,5 +1,7 @@
 cd AR-Test-main
 
+cd README.md
+
 git init
 
 git add .
