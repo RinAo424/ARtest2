@@ -1,13 +1,20 @@
-cd AR-Test-main
+<!DOCTYPE html>
+<html lang="ja">
 
-cd README.md
+<head>
+    <meta charset="UTF-8">
+    <title>AR-Test</title>
 
-git init
+    <link rel="stylesheet" href="./style.css">
+</head>
 
-git add .
+<body>
+    <div id="ar-view">
+        <model-viewer alt="" src="./ar/data-android.gltf" ios-src="./ar/data-ios.usdz" ar
+            camera-controls></model-viewer>
+    </div>
+</body>
 
-git commit -m “first commit”
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
-git remote add origin https://github.com/RinAo424/ARtest2.git
-
-git push origin master
+</html>
