@@ -1,3 +1,5 @@
+cd AR-Test-main
+
 git init
 
 git add .
